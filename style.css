@@ -116,11 +116,8 @@ section[data-testid="stSidebar"] .stCaption * { color: #475569 !important; }
   animation: shimmer 5s linear infinite;
 }
 .hero-sub {
-  color: rgba(148,163,184,0.75);
-  font-size: 0.95rem;
-  max-width: 500px;
-  margin: 0 auto 2.2rem;
-  line-height: 1.75;
+  color:rgba(148,163,184,0.75); font-size:0.95rem;
+  max-width:500px; margin:0 auto 2.2rem; line-height:1.75;
 }
 
 }
