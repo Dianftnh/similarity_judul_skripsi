@@ -20,7 +20,6 @@ from preprocessing import preprocess
 # KONFIGURASI HALAMAN
 st.set_page_config(
     page_title="Deteksi Kemiripan Judul Skripsi",
-    page_icon="🎓",
     layout="wide",
 )
 
