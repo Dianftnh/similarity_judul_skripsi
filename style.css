@@ -94,7 +94,7 @@ section[data-testid="stSidebar"] .stCaption * { color: #475569 !important; }
   animation: floatOrb 15s ease-in-out infinite 3s;
 }
 .hero-content {
-  position:relative; z-index:1; padding:3.2rem 3rem 2.8rem; text-align:center;
+  position:relative; z-index:1; padding:3.2rem 3rem 2.8rem; text-align:center !important;
 }
 .hero-tag {
   display:inline-flex; align-items:center; gap:8px;
