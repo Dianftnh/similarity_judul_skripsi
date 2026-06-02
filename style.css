@@ -67,26 +67,9 @@ aside[data-testid="stSidebar"],
 section[data-testid="stSidebar"] *,
 aside[data-testid="stSidebar"] *,
 [data-testid="stSidebarContent"] * {
-  color: #94a3b8 !important;/* ── SIDEBAR ── */
-section[data-testid="stSidebar"],
-aside[data-testid="stSidebar"],
-[data-testid="stSidebarContent"] {
-  display: block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  background: rgba(8,12,24,0.97) !important;
-  border-right: 1px solid rgba(139,92,246,0.10) !important;
-  backdrop-filter: blur(20px);
-}
-
-/* Warna teks default sidebar */
-section[data-testid="stSidebar"] *,
-aside[data-testid="stSidebar"] *,
-[data-testid="stSidebarContent"] * {
   color: #94a3b8 !important;
 }
 
-/* Heading di sidebar */
 section[data-testid="stSidebar"] h3,
 aside[data-testid="stSidebar"] h3,
 [data-testid="stSidebarContent"] h3 {
@@ -97,14 +80,11 @@ aside[data-testid="stSidebar"] h3,
   font-weight: 700 !important;
 }
 
-/* Caption di sidebar */
 section[data-testid="stSidebar"] .stCaption *,
 aside[data-testid="stSidebar"] .stCaption *,
 [data-testid="stSidebarContent"] .stCaption * {
   color: #475569 !important;
 }
-
-
 
 /* ── HERO ── */
 .hero-wrap {
