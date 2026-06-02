@@ -58,6 +58,21 @@ section[data-testid="stSidebar"] {
   border-right: 1px solid rgba(139,92,246,0.10) !important;
   backdrop-filter: blur(20px);
 }
+/* Menambahkan untuk Streamlit versi baru */
+[data-testid="stSidebarContent"] {
+  background: rgba(8,12,24,0.97) !important;
+  border-right: 1px solid rgba(139,92,246,0.10) !important;
+  backdrop-filter: blur(20px);
+  color: #94a3b8 !important;
+}
+
+[data-testid="stSidebarContent"] h3 {
+  color: #a78bfa !important;
+  font-size: 0.72rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 700 !important;
+}
 section[data-testid="stSidebar"] * { color: #94a3b8 !important; }
 section[data-testid="stSidebar"] h3 {
   color: #a78bfa !important; font-size: 0.72rem !important;
