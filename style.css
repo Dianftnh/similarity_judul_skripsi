@@ -52,42 +52,20 @@ html, body, [class*="css"] {
     radial-gradient(ellipse 40% 30% at 50% 50%, rgba(16,185,129,0.04) 0%, transparent 60%);
 }
 
-/* ── SIDEBAR FIX ── */
-section[data-testid="stSidebar"],
-aside[data-testid="stSidebar"],
-[data-testid="stSidebarContent"] {
-  display: block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
+* ── SIDEBAR ── */
+section[data-testid="stSidebar"] {
   background: rgba(8,12,24,0.97) !important;
   border-right: 1px solid rgba(139,92,246,0.10) !important;
   backdrop-filter: blur(20px);
 }
-
-/* Warna teks default sidebar */
-section[data-testid="stSidebar"] *,
-aside[data-testid="stSidebar"] *,
-[data-testid="stSidebarContent"] * {
-  color: #94a3b8 !important;
+section[data-testid="stSidebar"] * { color: #94a3b8 !important; }
+section[data-testid="stSidebar"] h3 {
+  color: #a78bfa !important; font-size: 0.72rem !important;
+  text-transform: uppercase; letter-spacing: 0.12em; font-weight: 700 !important;
 }
+section[data-testid="stSidebar"] .stCaption * { color: #475569 !important; }
 
-/* Heading di sidebar */
-section[data-testid="stSidebar"] h3,
-aside[data-testid="stSidebar"] h3,
-[data-testid="stSidebarContent"] h3 {
-  color: #a78bfa !important;
-  font-size: 0.72rem !important;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-weight: 700 !important;
-}
-
-/* Caption di sidebar */
-section[data-testid="stSidebar"] .stCaption *,
-aside[data-testid="stSidebar"] .stCaption *,
-[data-testid="stSidebarContent"] .stCaption * {
-  color: #475569 !important;
-}
+.main .block-container { padding-top: 0.75rem; padding-bottom: 3rem; }
 
 /* ── HERO ── */
 .hero-wrap {
