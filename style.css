@@ -53,19 +53,23 @@ html, body, [class*="css"] {
 }
 
 /* ── SIDEBAR ── */
-section[data-testid="stSidebar"] {
+/* Sidebar fix untuk semua versi Streamlit */
+section[data-testid="stSidebar"],
+[data-testid="stSidebarContent"] {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
   background: rgba(8,12,24,0.97) !important;
   border-right: 1px solid rgba(139,92,246,0.10) !important;
   backdrop-filter: blur(20px);
 }
-/* Menambahkan untuk Streamlit versi baru */
-[data-testid="stSidebarContent"] {
-  background: rgba(8,12,24,0.97) !important;
-  border-right: 1px solid rgba(139,92,246,0.10) !important;
-  backdrop-filter: blur(20px);
+
+section[data-testid="stSidebar"] *,
+[data-testid="stSidebarContent"] * {
   color: #94a3b8 !important;
 }
 
+section[data-testid="stSidebar"] h3,
 [data-testid="stSidebarContent"] h3 {
   color: #a78bfa !important;
   font-size: 0.72rem !important;
@@ -73,14 +77,7 @@ section[data-testid="stSidebar"] {
   letter-spacing: 0.12em;
   font-weight: 700 !important;
 }
-section[data-testid="stSidebar"] * { color: #94a3b8 !important; }
-section[data-testid="stSidebar"] h3 {
-  color: #a78bfa !important; font-size: 0.72rem !important;
-  text-transform: uppercase; letter-spacing: 0.12em; font-weight: 700 !important;
-}
-section[data-testid="stSidebar"] .stCaption * { color: #475569 !important; }
 
-.main .block-container { padding-top: 0.75rem; padding-bottom: 3rem; }
 
 /* ── HERO ── */
 .hero-wrap {
