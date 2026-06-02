@@ -53,7 +53,7 @@ html, body, [class*="css"] {
 }
 
 /* ── SIDEBAR ── */
-/* Sidebar fix untuk semua versi Streamlit */
+/* Sidebar fix untuk semua versi Streamlit 
 section[data-testid="stSidebar"],
 [data-testid="stSidebarContent"] {
   display: block !important;
